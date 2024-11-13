@@ -1,0 +1,27 @@
+h2{
+    background: rgb(57, 56, 57);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+img{
+    height: 60px;
+    margin-right: 16px;
+}
+
+.other-box{
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background: #e2d4f4;
+}
+
+.other-box :hover{
+    background: rgb(183, 178, 185);
+    cursor: pointer;
+}
