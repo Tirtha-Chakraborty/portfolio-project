@@ -1,0 +1,110 @@
+:host(){
+    --dark-green: darkgreen;
+    --light-yellow-green:rgb(195, 235, 116);
+    --size-16:16px;
+    --size-14:14px;
+    --size-12:12px;
+    --size-20:20px;
+    --greyish-green: #bfc6a3;
+    --whitish-green : rgb(243, 255, 216);
+    --light-yellow : rgb(253, 255, 190);
+
+
+}
+
+h1{
+    font-size: 36px;
+    color: var(--dark-green);
+    background-color: var(--light-yellow);
+    padding-left: var(--size-12);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 50;
+}
+
+.app{
+    background-image: url(/sfsites/c/resource/NoteTakingAppBackgroundImage);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-size: var(--size-16);
+    padding: var(--size-12);
+    display: flex;
+    flex-wrap: wrap
+
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    border-radius: var(--size-12);
+    margin: var(--size-12);
+    background: var(--whitish-green);
+}
+
+.box-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dotted-circle{
+    border: 2px solid var(--dark-green);
+    border-radius: 50%;
+    padding: var(--size-12);
+}
+
+h2{
+    font-size: var(--size-20);
+    font-weight: 700;
+    color: var(--dark-green);
+}
+
+.custom-icon{
+    --slds-c-icon-color-foreground-default: var(--dark-green);
+}
+
+.edit-icon{
+    --slds-c-icon-color-background: var(--dark-green);
+}
+
+.delete-icon{
+    --slds-c-icon-color-background: rgb(70, 27, 27);
+}
+
+header{
+    background: var(--light-yellow-green);
+    color: var(--dark-green);
+    padding: 4px 16px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border: 1px solid var(--greyish-green);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px var(--size-16);
+    background: var(--greyish-green);
+    border-bottom-left-radius: var(--size-12);
+    border-bottom-right-radius: var(--size-12);
+    border: 1px solid var(--greyish-green);
+}
+
+.notes{
+    height: 220px;
+    overflow: auto;
+    padding: 4px var(--size-16);
+}
+
+.date{
+    color: var(--dark-green);
+    font-size: var(--size-14);
+    font-style: italic;
+}
+
+.cusor{
+    cursor: pointer;
+}

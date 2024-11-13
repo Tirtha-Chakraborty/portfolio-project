@@ -1,0 +1,63 @@
+:host(){
+    --foreground : #23c7a6;
+    --result: #aef3e9;
+    --result-dark : #05cccf;
+    --dark-grey : #2c2f32;
+    --size-16 : 16px;
+    --size-24 : 24px;
+}
+
+.currency-app{
+    background-image: url(/sfsites/c/resource/currencyConverterAssetCollection/currencyConverterAssetCollection/CurrencyBackground.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.custom-icon{
+    --slds-c-icon-color-background: var(--foreground);
+    transform: rotate(45deg);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: var(--size-16);
+}
+
+.custom-card{
+    max-width: 520px;
+    background: var(--dark-grey);
+    border-radius: 25px;
+    min-width: 370px;
+    padding: var(--size-16);
+}
+
+.custom-button, .custom-button:hover, .custom-button:active{
+    background: var(--foreground);
+    color: var(--dark-grey);
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.baseline{
+    align-items: baseline;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+.result{
+    color: var(--result);
+    font-size: var(--size-24);
+    margin-bottom: var(--size-24);
+    font-weight: bold;
+}
+
+.result-to{
+    color: var(--result-dark);
+}
