@@ -1,4 +1,4 @@
-# portfolio-project
+# Portfolio Application
 This LWR site (https://tirthachakraborty-prtfolio-dev-ed.develop.my.site.com/) has been built out of custom LWC components.
 This digital portfolio includes the following information for a candidate:
 - profile overview
