@@ -1,4 +1,5 @@
-# Portfolio Application
+# My Portfolio
+
 This LWR site (https://tirthachakraborty-prtfolio-dev-ed.develop.my.site.com/) has been built out of custom LWC components.
 This digital portfolio includes the following information for a candidate:
 - profile overview
@@ -25,5 +26,4 @@ Clicking on any of the above previews on the portfolio will redirect the user to
 # Consideration 
 The portfolio app gets the data from the backend using records of custom objects  Portfolio__c and WorkExperience__c and Education__c from the org.
 WorkExperience__c and Education__c are related objects to Portfolio__c.
-
 
