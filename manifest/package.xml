@@ -34,5 +34,11 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
+    <types>
+        <members>Portfolio__c-Portfolio Layout</members>
+        <members>Education__c-Education Layout</members>
+        <members>WorkExperience__c-Work Experience Layout</members>
+        <name>Layout</name>
+    </types>
     <version>55.0</version>
 </Package>
