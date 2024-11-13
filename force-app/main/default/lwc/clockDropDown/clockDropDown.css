@@ -1,0 +1,12 @@
+:host(){
+    --dark-blue:rgb(1, 7, 42);
+    --light-blue:#87d6f3;
+}
+
+.custom-label{
+    color: var(--light-blue);
+}
+
+.custom-select{
+    color: var(--dark-blue);
+}
